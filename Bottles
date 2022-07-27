@@ -11,3 +11,17 @@ while numBottles > 0 {
 
 
 print ("\(numBottles) bottles of Beer on the wall, \(numBottles) bottles of Beer!\nGo to the store and buy some more,\n99 bottles of Beer on the wall!")
+
+
+// Second
+
+
+for numBottles in stride(from: 99, to: 0, by: -1){
+  print ("\(numBottles) bottles of Beer on the wall, \(numBottles) bottles of Beer!")
+  print ("You take one down and pass it around...")
+  
+  print ("\(numBottles) bottles of Beer on the wall!\n")
+
+}
+
+print ("0 bottles of Beer on the wall, 0 bottles of Beer!\nGo to the store and buy some more,\n99 bottles of Beer on the wall!")

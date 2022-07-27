@@ -34,9 +34,8 @@ for char in input {
   switch lowerChar {
     case "a", "i", "o":
       output += lowerChar.uppercased()
-    // Both "e" and "u" are in a single case
     case "e", "u":
-      // Used a ternary operator to determine which letters get added
+      // Used a ternary operator
       output += lowerChar == "e" ? "EE" : "UU"
     default:
       continue

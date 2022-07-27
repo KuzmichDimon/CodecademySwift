@@ -1,0 +1,24 @@
+// Whale Talk:
+// Dmitry Drozdov
+
+var input = "I think by the end of the course I will learn something!!"
+var output = ""
+
+for char in input {
+  let lowerChar = char.lowercased()
+
+  switch lowerChar {
+    case "a", "i", "o", "b", "h":
+    output += lowerChar.uppercased()
+  print(output)
+    case "e":
+      output += "EE"
+        print(output)
+    case  "u":
+      output += "UU"
+        print(output)
+    default:
+      continue
+  }
+}
+print(output)

@@ -15,7 +15,7 @@ print ("\(numBottles) bottles of Beer on the wall, \(numBottles) bottles of Beer
 
 // Second
 
-
+/*
 for numBottles in stride(from: 99, to: 0, by: -1){
   print ("\(numBottles) bottles of Beer on the wall, \(numBottles) bottles of Beer!")
   print ("You take one down and pass it around...")
@@ -25,3 +25,4 @@ for numBottles in stride(from: 99, to: 0, by: -1){
 }
 
 print ("0 bottles of Beer on the wall, 0 bottles of Beer!\nGo to the store and buy some more,\n99 bottles of Beer on the wall!")
+*/

@@ -22,3 +22,25 @@ for char in input {
   }
 }
 print(output)
+
+
+
+/*
+var input = "I think by the end of the course I will learn something!!"
+var output = ""
+for char in input {
+  let lowerChar = char.lowercased()
+  
+  switch lowerChar {
+    case "a", "i", "o":
+      output += lowerChar.uppercased()
+    // Both "e" and "u" are in a single case
+    case "e", "u":
+      // Used a ternary operator to determine which letters get added
+      output += lowerChar == "e" ? "EE" : "UU"
+    default:
+      continue
+  }
+}
+print(output)
+*/
